@@ -66,7 +66,16 @@ body {
 
 .heading h3 {
   font-size: 4rem;
-  width: 200px;
+  width: 250px;
   border-bottom: rgb(85, 42, 123) 4px solid;
   text-align: center;
+}
+
+.projects-section {
+  background: rgb(242, 238, 238);
+  min-height: 100vh;
+}
+
+p {
+  text-align: justify;
 }

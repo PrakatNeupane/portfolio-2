@@ -66,11 +66,12 @@ body {
 
 .heading h3 {
   font-size: 4rem;
-  width: 250px;
+  width: 300px;
   border-bottom: rgb(85, 42, 123) 4px solid;
   text-align: center;
 }
 
+/* projects section */
 .projects-section {
   background: rgb(242, 238, 238);
   min-height: 100vh;
@@ -78,4 +79,45 @@ body {
 
 p {
   text-align: justify;
+}
+
+.project-name {
+  font-size: 1.7rem;
+}
+
+.img-thumbnail {
+  /* height: 220px; */
+}
+
+/* contact section */
+.contact-section i {
+  font-size: 4rem;
+}
+
+.about-me {
+  min-height: 100vh;
+}
+
+/* footer */
+.footer {
+  background: black;
+  color: white;
+  position: relative;
+}
+
+/* up arrow */
+.up-arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: grey;
+  font-size: 1.5rem;
+  color: rgb(247, 117, 3);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

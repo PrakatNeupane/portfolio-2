@@ -37,7 +37,7 @@
   <body>
     <div class="wrapper">
       <!-- hero section -->
-      <div class="hero pb-4">
+      <div id="hero" class="hero pb-4">
         <div class="nav-bar">
           <nav
             class="navbar navbar-expand-lg navbar-light bg-light bg-transparent container"
@@ -59,18 +59,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#"
+                  <a class="nav-link font-weight-bold" href="#skills"
                     >Skills <span class="sr-only">(current)</span></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Projects</a>
+                  <a class="nav-link font-weight-bold" href="#projects"
+                    >Projects</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">About me</a>
+                  <a class="nav-link font-weight-bold" href="#about-me"
+                    >About me</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Contact</a>
+                  <a class="nav-link font-weight-bold" href="#footer"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -97,7 +103,7 @@
       </div>
 
       <!-- skills section -->
-      <div class="skills-section container-fluid pb-5">
+      <div id="skills" class="skills-section container-fluid pb-5">
         <div class="heading">
           <h3 class="fw-bold">Skills</h3>
         </div>
@@ -133,7 +139,7 @@
       </div>
 
       <!-- projects section -->
-      <div class="projects-section pb-5">
+      <div id="projects" class="projects-section pb-5">
         <div class="projects-content container">
           <div
             class="heading pt-5 row d-flex justify-content-center align-items-center m-2"
@@ -300,7 +306,7 @@
       </div>
 
       <!-- About me section -->
-      <div class="container about-me pb-5">
+      <div id="about-me" class="container about-me pb-5">
         <div
           class="row heading d-flex justify-content-center align-items-center py-5"
         >
@@ -317,19 +323,18 @@
           </div>
           <div class="col-md">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              placeat. Illo distinctio dicta soluta aperiam minus, ipsa
-              assumenda tenetur consequatur corporis nihil eius explicabo
-              voluptatem et doloribus veniam architecto fugit inventore id
-              fugiat perspiciatis quod. Provident in aut possimus hic cupiditate
-              repudiandae nemo accusantium dolores, reiciendis,
+              Hi, I am Prakat and I love to code. I am a full-stack web
+              developer (MERN stack) with hands-on experience in a number of
+              projects. I have collected plethora of experiences in different
+              positions. Currently, I am serving as the President of IEEE
+              student committee branch in CSU study centre, Sydney. Apart from
+              that, I have served as an executive board member of an INGO.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Aspernatur culpa a necessitatibus veritatis consequatur earum
-              commodi similique molestias recusandae quibusdam, expedita iste
-              amet eveniet officiis? Obcaecati, iure magni vitae, similique ex
-              hic modi voluptates adipisci quisquam, ipsum facilis repellendus
+              Besides my professional experience, I am an avid reader. My
+              favourite book so far is "The Magic of Thinking Big", and "The
+              Compound Effect". Other than that, John C Maxwell is one of my
+              favourite writers.
             </p>
           </div>
         </div>
@@ -346,11 +351,18 @@
     </div>
 
     <!-- footer section -->
-    <footer class="footer p-5 d-flex justify-content-center align-items-center">
+    <footer
+      id="footer"
+      class="footer p-5 d-flex justify-content-center align-items-center"
+    >
       <small>&copy; 2022 Prakat | All rights reserved </small>
-      <div class="up-arrow">
-        <i class="fas fa-arrow-up"></i>
-      </div>
+
+      <!-- up arrow button -->
+      <a href="#hero">
+        <div class="up-arrow">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+      </a>
     </footer>
 
     <!-- bootstrap JavaScript -->

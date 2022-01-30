@@ -3,9 +3,13 @@
 }
 
 .hero {
-  background: url(./assets/bg.jpeg) no-repeat center center;
+  background: url(./assets/bg-portfolio-2.png) no-repeat center center;
   background-size: cover;
   min-height: 100vh;
+}
+
+.nav-link {
+  font-family: "Anton", sans-serif;
 }
 
 body {
@@ -85,10 +89,6 @@ p {
   font-size: 1.7rem;
 }
 
-.img-thumbnail {
-  /* height: 220px; */
-}
-
 /* contact section */
 .contact-section i {
   font-size: 4rem;
@@ -120,4 +120,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }

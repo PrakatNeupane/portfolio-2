@@ -16,6 +16,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.download {
+  background: rgb(216, 73, 73);
+  border: none;
+}
+
 .navbar-nav {
   font-size: 1.3rem;
 }
